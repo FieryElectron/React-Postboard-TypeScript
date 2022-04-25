@@ -17,3 +17,7 @@ Before
 After
 
     const root = createRoot(document.getElementById('root')!);
+
+Types for the **react-test-renderer** needed.
+
+    npm i --save-dev @types/react-test-renderer

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div
+  className="timeSelectorContainer"
+  data-testid="timeSelectorContainer"
+>
+  <h3
+    className="timeSelectorTitle"
+    data-testid="timeSelectorTitle1"
+  >
+    From
+  </h3>
+  <input
+    className="timeSelectorDate"
+    data-testid="timeSelectorDate1"
+    id="dateFrom"
+    onChange={[Function]}
+    type="date"
+    value="2022-04-25"
+  />
+  <h3
+    className="timeSelectorTitle"
+    data-testid="timeSelectorTitle2"
+  >
+    To
+  </h3>
+  <input
+    className="timeSelectorDate"
+    data-testid="timeSelectorDate2"
+    id="dateTo"
+    onChange={[Function]}
+    type="date"
+    value="2022-04-25"
+  />
+  <button
+    className="button"
+    data-testid="button"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#0071FE",
+      }
+    }
+  >
+    Refresh Posts
+  </button>
+</div>
+`;

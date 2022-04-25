@@ -1,0 +1,22 @@
+.headerContainer {
+    background-color: #FAFAFA;
+    border-bottom: 2px solid gray;
+}
+
+.header {
+    position: relative;
+    /* left: 40%; */
+    margin: 0;
+    padding: 8px;
+}
+
+.profile{
+    position: absolute;
+
+    right: 5px;
+    top:10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

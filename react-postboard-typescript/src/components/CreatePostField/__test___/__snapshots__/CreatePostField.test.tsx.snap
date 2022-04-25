@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div
+  className="createPostFieldContainer"
+  data-testid="createPostFieldContainer"
+>
+  <div
+    className="inputContainer"
+    data-testid="inputContainer"
+  >
+    <input
+      className="input"
+      data-testid="input"
+      onChange={[Function]}
+      placeholder="Post Content"
+      spellCheck="false"
+      type="text"
+    />
+  </div>
+  <button
+    className="button"
+    data-testid="button"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#38DD38",
+      }
+    }
+  >
+    Create
+  </button>
+</div>
+`;

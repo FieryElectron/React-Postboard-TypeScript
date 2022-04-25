@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div
+  className="headerContainer"
+  data-testid="headerContainer"
+>
+  <h1
+    className="header"
+    data-testid="header"
+  >
+    Sign In
+  </h1>
+</div>
+`;
+
+exports[`matchs snapshot 2 1`] = `
+<div
+  className="headerContainer"
+  data-testid="headerContainer"
+>
+  <h1
+    className="header"
+    data-testid="header"
+  >
+    PostBoard
+  </h1>
+</div>
+`;

@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div>
+  <div
+    className="headerContainer"
+    data-testid="headerContainer"
+  >
+    <h1
+      className="header"
+      data-testid="header"
+    >
+      PostBoard
+    </h1>
+  </div>
+  <div
+    className="createPostFieldContainer"
+    data-testid="createPostFieldContainer"
+  >
+    <div
+      className="inputContainer"
+      data-testid="inputContainer"
+    >
+      <input
+        className="input"
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="Post Content"
+        spellCheck="false"
+        type="text"
+      />
+    </div>
+    <button
+      className="button"
+      data-testid="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#38DD38",
+        }
+      }
+    >
+      Create
+    </button>
+  </div>
+  <div
+    className="timeSelectorContainer"
+    data-testid="timeSelectorContainer"
+  >
+    <h3
+      className="timeSelectorTitle"
+      data-testid="timeSelectorTitle1"
+    >
+      From
+    </h3>
+    <input
+      className="timeSelectorDate"
+      data-testid="timeSelectorDate1"
+      id="dateFrom"
+      onChange={[Function]}
+      type="date"
+      value="2022-04-25"
+    />
+    <h3
+      className="timeSelectorTitle"
+      data-testid="timeSelectorTitle2"
+    >
+      To
+    </h3>
+    <input
+      className="timeSelectorDate"
+      data-testid="timeSelectorDate2"
+      id="dateTo"
+      onChange={[Function]}
+      type="date"
+      value="2022-04-25"
+    />
+    <button
+      className="button"
+      data-testid="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#0071FE",
+        }
+      }
+    >
+      Refresh Posts
+    </button>
+  </div>
+  <div
+    className="pageSelectorContainer"
+    data-testid="pageSelectorContainer"
+  >
+    <span
+      className="pageSelectorTitle"
+      data-testid="pageSelectorTitle"
+    >
+      Page
+    </span>
+    <select
+      className="pageSelectorSelect"
+      data-testid="pageSelectorSelect"
+      id="pageSelectorId"
+      onChange={[Function]}
+    >
+      <option
+        value={1}
+      >
+        1
+      </option>
+      <option
+        value={2}
+      >
+        2
+      </option>
+      <option
+        value={3}
+      >
+        3
+      </option>
+      <option
+        value={4}
+      >
+        4
+      </option>
+      <option
+        value={5}
+      >
+        5
+      </option>
+    </select>
+  </div>
+  <div />
+</div>
+`;

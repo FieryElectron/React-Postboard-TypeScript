@@ -1,0 +1,11 @@
+.timeSelectorTitle{
+    margin: 5px;
+    padding: 0px;
+}
+
+.timeSelectorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

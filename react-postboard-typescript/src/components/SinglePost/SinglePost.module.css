@@ -1,0 +1,35 @@
+.singlePostContainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ownerName {
+    text-align: left;
+    left: 1%;
+    position: relative;
+    font-size: 25px;
+}
+
+.postContent {
+    text-align: left;
+    left: 1%;
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.timeStamp {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    height: 32px;
+}
+
+.timeStampContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

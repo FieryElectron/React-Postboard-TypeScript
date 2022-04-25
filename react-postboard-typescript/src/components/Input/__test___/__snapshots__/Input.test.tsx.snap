@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div
+  className="inputContainer"
+  data-testid="inputContainer"
+>
+  <input
+    className="input"
+    data-testid="input"
+    onChange={[MockFunction]}
+    placeholder="placeholder"
+    spellCheck="false"
+    type="password"
+  />
+</div>
+`;
+
+exports[`matchs snapshot 2 1`] = `
+<div
+  className="inputContainer"
+  data-testid="inputContainer"
+>
+  <input
+    className="input"
+    data-testid="input"
+    onChange={[MockFunction]}
+    placeholder="username"
+    spellCheck="false"
+    type="text"
+  />
+</div>
+`;

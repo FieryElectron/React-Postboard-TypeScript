@@ -1,9 +1,12 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+
+import signInPageReducer from '../components/SignInPage/signInPageSlice';
+import postBoardPageReducer from '../components/PostBoardPage/postBoardPageSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    signInPage: signInPageReducer,
+    postBoardPage: postBoardPageReducer,
   },
 });
 

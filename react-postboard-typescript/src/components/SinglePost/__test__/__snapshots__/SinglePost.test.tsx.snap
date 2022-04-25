@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchs snapshot 1 1`] = `
+<div
+  className="singlePostContainer"
+  data-testid="singlePostContainer"
+>
+  <div
+    className="ownerName"
+    data-testid="ownerName"
+  />
+  <div
+    className="postContent"
+    data-testid="postContent"
+  />
+  <hr />
+  <div
+    className="timeStampContainer"
+    data-testid="timeStampContainer"
+  >
+    <span
+      className="timeStamp"
+      data-testid="timeStamp"
+    >
+      Invalid Date
+    </span>
+  </div>
+</div>
+`;

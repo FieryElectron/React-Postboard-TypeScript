@@ -10,8 +10,16 @@ import {
 
 
 export async function fetchRestApis() {
-    return await fetch(`http://` + process.env.REACT_APP_ROOT_DOMAIN + `:` + process.env.REACT_APP_REST_PORT + `/api/`)
-        .then((res) => res.json());
+    let res:any = [];
+    let resJson:[] = [];
+    try {
+        res = await fetch(`http://` + process.env.REACT_APP_ROOT_DOMAIN + `:` + process.env.REACT_APP_REST_PORT + `/api/`);
+        resJson = await res.json();
+    }catch(error){
+        console.error(error);
+        resJson = [];
+    }
+    return resJson;
 }
 
 const refreshAccessToken = async (tokenUrl: string) => {

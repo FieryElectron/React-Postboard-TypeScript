@@ -20,11 +20,11 @@ Button.defaultProps = {
     text: 'text',
 }
 
-Button.propTypes = {
-    color: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-    onClick: PropTypes.func,
-}
+// Button.propTypes = {
+//     color: PropTypes.string.isRequired,
+//     text: PropTypes.string.isRequired,
+//     onClick: PropTypes.func,
+// }
 
 
 export default Button;
